@@ -30,7 +30,7 @@ public class WebTest {
     @Severity(SeverityLevel.CRITICAL)
     @Owner("tanya-vai")
     @Test
-    void ListenerTest() {
+    void listenerTest() {
         open("");
         $(".header-search-input").setValue(REPOSITORY).submit();
         $(linkText(REPOSITORY)).click();
@@ -41,7 +41,7 @@ public class WebTest {
     @Severity(SeverityLevel.CRITICAL)
     @Owner("tanya-vai")
     @Test
-    void LambdaTest() {
+    void lambdaTest() {
         step("Open github", () -> {
             open("");
         });
